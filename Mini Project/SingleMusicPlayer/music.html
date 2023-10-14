@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d60afa9112.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="music.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>                
+                </div>
+            </nav>
+
+            <img src="media/cover.jpg" class="song-img">
+            <h1>OMG</h1>
+            <p>NewJeans</p>
+
+            <audio class="song">
+                <source src="media/01. OMG.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" class="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div><i class="fa-solid fa-play play"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+</html>
